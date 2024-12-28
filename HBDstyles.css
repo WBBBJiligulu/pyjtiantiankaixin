@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffccff; /* 浅粉色背景 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 确保内容至少占满整个视口高度 */
+}
+
+header {
+    background-color: #ff99cc; /* 深粉色头部 */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* 确保头部宽度占满整个视口宽度 */
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    width: 100%; /* 确保主体内容宽度占满整个视口宽度 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 40px;
+    width: 100%; /* 确保每个 section 宽度占满整个视口宽度 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #ff6699; /* 浅粉色标题 */
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* 确保视频宽度不超过容器宽度 */
+    max-height: 100vh; /* 确保视频高度不超过视口高度 */
+}
+
+.images img {
+    width: auto; /* 让图片宽度自动调整 */
+    height: auto; /* 让图片高度自动调整 */
+    max-width: 100%; /* 确保图片宽度不超过容器宽度 */
+    max-height: 100vh; /* 确保图片高度不超过视口高度 */
+    margin: 1%;
+    border: 1px solid #ffccff; /* 浅粉色边框 */
+}
+
+.text p {
+    color: #666;
+    text-align: center; /* 文本内容居中 */
+}
+
+footer {
+    background-color: #ff99cc; /* 深粉色底部 */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* 确保底部宽度占满整个视口宽度 */
+}
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; /* 确保媒体容器宽度占满整个视口宽度 */
+}
+
+.media-container video,
+.media-container img {
+    width: 48%; /* 每个媒体元素占容器宽度的48%，以便在一行中显示两个元素 */
+    height: auto; /* 让媒体元素高度自动调整 */
+    margin: 1%;
+    max-width: 100%; /* 确保媒体元素宽度不超过容器宽度 */
+    max-height: 100vh; /* 确保媒体元素高度不超过视口高度 */
+}
+
+#word {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ffccff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* 确保文字容器宽度占满整个视口宽度 */
+}
+
+#countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* 根据需要调整高度 */
+    width: 100%; /* 确保倒计时容器宽度占满整个视口宽度 */
+}
+
+#countdown {
+    font-size: 2em; /* 根据需要调整字体大小 */
+    font-weight: bold;
+    margin-bottom: 20px; /* 根据需要调整间距 */
+}
+
+#gift-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
